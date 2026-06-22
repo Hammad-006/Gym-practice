@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coach Arjun | Elite Fitness Training</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styels/index.css" />
+  </head>
+  <body>
+    <!-- Loading -->
+
+    <div class="loadingScr" aria-live="polite">
+      <p>Loading Ergo</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <a href="#" class="logo">COACH <span>ARJUN</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#transformations">Transformations</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge">Elite Personal Training</div>
+        <h1>Transform Your Body.<br /><span>Transform Your Life.</span></h1>
+        <p>
+          Personal training, fat loss, muscle gain, and strength coaching
+          designed to push your limits and unlock your full potential.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-fire"></i> Join Now
+          </a>
+          <a href="#programs" class="btn btn-outline">
+            <i class="fas fa-dumbbell"></i> View Programs
+          </a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80"
+            alt="Coach Arjun"
+          />
+        </div>
+        <div class="about-content fade-in">
+          <h3>Coach Arjun</h3>
+          <p class="role">Certified Fitness Coach & Nutrition Specialist</p>
+          <p>
+            With over 5 years of dedicated experience in the fitness industry, I
+            specialize in body transformations that actually last. My approach
+            combines evidence-based training methodologies with personalized
+            nutrition strategies to deliver results that speak for themselves.
+          </p>
+          <p>
+            I don't believe in shortcuts. I believe in discipline, consistency,
+            and smart programming. Every client who walks through my door leaves
+            with more than just a better physique — they leave with a new
+            mindset.
+          </p>
+
+          <div class="certifications">
+            <span class="cert-tag">ACE Certified</span>
+            <span class="cert-tag">ISSA Nutrition</span>
+            <span class="cert-tag">CrossFit L2</span>
+            <span class="cert-tag">Kettlebell Specialist</span>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <span class="number">100+</span>
+              <span class="label">Clients Trained</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">50+</span>
+              <span class="label">Transformations</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">5+</span>
+              <span class="label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformations Section -->
+    <section class="transformations" id="transformations">
+      <div class="section-header fade-in">
+        <h2>Client Transformations</h2>
+        <p>
+          Real people. Real results. These are the stories of individuals who
+          committed to change and achieved what they once thought was
+          impossible.
+        </p>
+      </div>
+      <div class="transform-grid">
+        <div class="transform-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80"
+            alt="Transformation 1"
+          />
+          <div class="transform-overlay">
+            <h4>Rahul Sharma</h4>
+            <p>12 Weeks Fat Loss</p>
+          </div>
+        </div>
+        <div class="transform-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&q=80"
+            alt="Transformation 2"
+          />
+          <div class="transform-overlay">
+            <h4>Vikram Patel</h4>
+            <p>Muscle Gain Transformation</p>
+          </div>
+        </div>
+        <div class="transform-card fade-in">
+          <img src="/assets/asiangirl.avif" alt="Transformation 4" />
+
+          <!-- <img
+            src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=600&q=80"
+            alt="Transformation 3"
+          /> -->
+          <div class="transform-overlay">
+            <h4>Arjun Mehta</h4>
+            <p>16 Week Body Recomposition</p>
+          </div>
+        </div>
+        <div class="transform-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&q=80"
+            alt="Transformation 4"
+          />
+          <div class="transform-overlay">
+            <h4>Karan Singh</h4>
+            <p>Strength & Conditioning</p>
+          </div>
+        </div>
+        <div class="transform-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80"
+            alt="Transformation 5"
+          />
+          <div class="transform-overlay">
+            <h4>Deepak Kumar</h4>
+            <p>20 Week Total Transformation</p>
+          </div>
+        </div>
+        <div class="transform-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&q=80"
+            alt="Transformation 6"
+          />
+          <div class="transform-overlay">
+            <h4>Rohan Gupta</h4>
+            <p>8 Week Shred</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs / Pricing -->
+    <section class="programs" id="programs">
+      <div class="section-header fade-in">
+        <h2>Training Programs</h2>
+        <p>
+          Choose the plan that fits your goals and budget. Every program is
+          designed with your success in mind.
+        </p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card fade-in">
+          <h3>Basic</h3>
+          <div class="price">₹999<span>/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Custom Workout Plan</li>
+            <li><i class="fas fa-check"></i> Basic Diet Guidelines</li>
+            <li><i class="fas fa-check"></i> Weekly Check-ins</li>
+            <li><i class="fas fa-check"></i> Exercise Video Library</li>
+            <li>
+              <i class="fas fa-times" style="color: var(--text-muted)"></i>
+              1-on-1 Personal Training
+            </li>
+            <li>
+              <i class="fas fa-times" style="color: var(--text-muted)"></i>
+              Nutrition Coaching
+            </li>
+          </ul>
+          <a
+            href="https://wa.me/919876543210?text=Hi%20Coach%20Arjun,%20I'm%20interested%20in%20the%20Basic%20Plan"
+            class="btn btn-outline"
+            style="width: 100%; justify-content: center"
+            >Join Now</a
+          >
+        </div>
+
+        <div class="pricing-card popular fade-in">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Standard</h3>
+          <div class="price">₹1999<span>/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Custom Workout Plan</li>
+            <li><i class="fas fa-check"></i> Detailed Diet Plan</li>
+            <li><i class="fas fa-check"></i> Bi-Weekly Check-ins</li>
+            <li><i class="fas fa-check"></i> Exercise Video Library</li>
+            <li><i class="fas fa-check"></i> 2x Personal Training/Week</li>
+            <li><i class="fas fa-check"></i> Supplement Guidance</li>
+          </ul>
+          <a
+            href="https://wa.me/919876543210?text=Hi%20Coach%20Arjun,%20I'm%20interested%20in%20the%20Standard%20Plan"
+            class="btn btn-primary"
+            style="width: 100%; justify-content: center"
+            >Join Now</a
+          >
+        </div>
+
+        <div class="pricing-card fade-in">
+          <h3>Premium</h3>
+          <div class="price">₹2999<span>/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Custom Workout Plan</li>
+            <li><i class="fas fa-check"></i> Advanced Diet Plan</li>
+            <li><i class="fas fa-check"></i> Daily Check-ins</li>
+            <li><i class="fas fa-check"></i> Exercise Video Library</li>
+            <li><i class="fas fa-check"></i> Unlimited Personal Training</li>
+            <li><i class="fas fa-check"></i> Full Nutrition Coaching</li>
+          </ul>
+          <a
+            href="https://wa.me/919876543210?text=Hi%20Coach%20Arjun,%20I'm%20interested%20in%20the%20Premium%20Plan"
+            class="btn btn-outline"
+            style="width: 100%; justify-content: center"
+            >Join Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="section-header fade-in">
+        <h2>Our Services</h2>
+        <p>
+          Comprehensive fitness solutions tailored to your unique needs and
+          goals.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-user-ninja"></i>
+          </div>
+          <h3>Personal Training</h3>
+          <p>
+            One-on-one sessions with customized workout plans designed
+            specifically for your body type, fitness level, and goals.
+          </p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-fire-alt"></i>
+          </div>
+          <h3>Weight Loss Coaching</h3>
+          <p>
+            Science-backed fat loss programs that combine effective training
+            with sustainable nutrition strategies.
+          </p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <h3>Muscle Building</h3>
+          <p>
+            Hypertrophy-focused training programs to help you pack on lean
+            muscle mass and build a powerful physique.
+          </p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3>Online Coaching</h3>
+          <p>
+            Train from anywhere with virtual coaching, video form checks, and
+            real-time progress tracking via app.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="section-header fade-in">
+        <h2>Client Reviews</h2>
+        <p>
+          Don't just take my word for it. Here's what my clients have to say
+          about their transformation journey.
+        </p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            Coach Arjun completely changed my approach to fitness. In just 3
+            months, I lost 12kg and gained strength I never thought I had. His
+            programming is next level.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RS</div>
+            <div class="testimonial-info">
+              <h4>Rahul Sharma</h4>
+              <span>Lost 12kg in 12 Weeks</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            I've been training with Arjun for over a year now. The muscle I've
+            gained is incredible. He knows exactly how to push you while keeping
+            workouts enjoyable.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">VP</div>
+            <div class="testimonial-info">
+              <h4>Vikram Patel</h4>
+              <span>Gained 8kg Lean Muscle</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">
+            The online coaching program is fantastic. I travel a lot for work,
+            but Arjun's flexible approach meant I never missed a workout. Best
+            investment I've made in myself.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AM</div>
+            <div class="testimonial-info">
+              <h4>Arjun Mehta</h4>
+              <span>Online Coaching Client</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            After years of failed diets, Arjun's nutrition coaching finally
+            clicked for me. He made it simple, sustainable, and effective. Down
+            15kg and feeling amazing.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">KS</div>
+            <div class="testimonial-info">
+              <h4>Karan Singh</h4>
+              <span>Lost 15kg in 16 Weeks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+      <div class="cta-content fade-in">
+        <h2>Ready to Start Your Transformation?</h2>
+        <p>
+          Your journey to a stronger, fitter, and more confident you starts with
+          a single message. Let's make it happen together.
+        </p>
+        <a
+          href="https://wa.me/919876543210?text=Hi%20Coach%20Arjun,%20I'm%20ready%20to%20start%20my%20transformation!"
+          class="btn btn-whatsapp"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i> Message on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section-header fade-in">
+        <h2>Get In Touch</h2>
+        <p>
+          Ready to take the first step? Reach out and let's discuss how I can
+          help you achieve your fitness goals.
+        </p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info fade-in">
+          <h3>Contact Information</h3>
+
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>
+                <a href="https://wa.me/919876543210" target="_blank"
+                  >+91 98765 43210</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>
+                <a href="mailto:coacharjun@email.com">coacharjun@email.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>FitZone Gym, Sector 18, Noida, UP - 201301</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Gym Timings</h4>
+              <p>
+                Mon - Sat: 5:00 AM - 10:00 PM<br />Sunday: 7:00 AM - 2:00 PM
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map fade-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1234567890123!2d77.3261234!3d28.5701234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM0JzEyLjQiTiA3N8KwMTknMzQuMCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="#" class="logo">COACH <span>ARJUN</span></a>
+          <p>
+            Transforming lives through disciplined training, expert nutrition
+            coaching, and unwavering support. Your fitness journey starts here.
+          </p>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/919876543210" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Basic Plan</a></li>
+            <li><a href="#programs">Standard Plan</a></li>
+            <li><a href="#programs">Premium Plan</a></li>
+            <li><a href="#services">Online Coaching</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Coach Arjun Fitness. All Rights Reserved. Built with
+          discipline and dedication.
+        </p>
+      </div>
+    </footer>
+    <script src="/scripts/index.js" defer></script>
+    <script src="/scripts/loadingscree.js" defer></script>
+  </body>
+</html>
